@@ -83,7 +83,7 @@
     --sidebar-ring: oklch(0.556 0 0);
   }
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
@@ -91,4 +91,15 @@
   html {
     @apply font-sans;
   }
+}
+
+:root {
+  --glass-bg: rgba(6, 12, 28, 0.55);
+  --glass-border: rgba(100, 130, 255, 0.18);
+  --glass-highlight: rgba(140, 170, 255, 0.08);
+  --accent-blue: #4f7fff;
+  --accent-glow: rgba(79, 127, 255, 0.35);
+  --text-primary: rgba(220, 230, 255, 0.95);
+  --text-muted: rgba(140, 160, 210, 0.70);
+  --text-dim: rgba(100, 120, 180, 0.50);
 }
